@@ -1,0 +1,649 @@
+{
+  "brand": "Empanadas Pronto",
+  "language": "es-ar",
+  "sections": [
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Promo 1 - dúo de muzzas",
+          "description": "2 Pizzas grandes de muzzarella al precio más conveniente. masa casera y mucho queso.",
+          "price": 22500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 2 - docena surtida (ideal familia)",
+          "description": "Docena de empanadas surtidas, horneadas y grandes. Elige tus sabores favoritos.",
+          "price": 21500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 3 - la caja gigante (24 empanadas)",
+          "description": "Caja gigante con 24 empanadas horneadas. Elegí tus sabores favoritos.",
+          "price": 39900,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 4 - combo (pizza + empanadas)",
+          "description": "Lo mejor de los dos mundos. 1 pizza grande de muzzarella + 12 empanadas a elección. la solución para la cena de 4 o 5 personas.",
+          "price": 33500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 5 - 6 empanadas",
+          "description": "6 empanadas con sabor a elección. Perfectas para compartir.",
+          "price": 10750,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 7- pizza chica + gaseosa 354 ml",
+          "description": "Pizza chica de muzzarella con aceitunas y gaseosa de 354 ml.",
+          "price": 9200,
+          "currency": "ARS"
+        },
+        {
+          "name": "Promo 8 - 1 muzza grande + 6 empanadas",
+          "description": "Una pizza de muzzarella grande mas 6 empanadas con sabores a elección.",
+          "price": 22900,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Clásica de carne suave",
+          "description": "Nuestra receta tradicional. jugoso relleno de carne vacuna, huevo picado, cebolla rehogada y especias suaves, en masa casera horneada y dorada.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Chiken cheese",
+          "description": "Empanada rellena de pollo, barbacoa, cheddar y bacon.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Carne picante \"la atrevida\"",
+          "description": "Para valientes. el mismo relleno jugoso de carne cortada a cuchillo pero con un toque picante que despierta el paladar.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Jamón y queso",
+          "description": "Sin escatimar. abundante jamón cocido y mezcla de quesos que se funden y estiran en cada mordisco. la favorita de todos.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Pollo casero",
+          "description": "Pechuga de pollo desmenuzada, cocinada lentamente con un sofrito de vegetales y condimentos naturales. tierna y sabrosa.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Empanada cebolla y queso",
+          "description": "Empanada con queso muzzarella y cebolla.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Capresse (toque fresco)",
+          "description": "Combinación perfecta de queso muzzarella derretido, rodajas de tomate fresco y albahaca aromática.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Empanada jamón y roquefort",
+          "description": "Empanada con queso muzzarella, jamón y queso roquefort.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Empanada de verdura",
+          "description": "Empanada con espinaca y salsa blanca.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Calabaza y queso (masa integral)",
+          "description": "Relleno suave de calabaza asada y queso cremoso, envuelto en nuestra masa 100 integral. liviana y rica.",
+          "price": 2100,
+          "currency": "ARS"
+        },
+        {
+          "name": "Empanada brócoli al champiñón integral",
+          "description": "Empanada de brócoli con champiñón en masa integral.",
+          "price": 2100,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Pizza muzzarella individual",
+          "description": "Pizza individual con salsa pomodoro pronto, muzzarella, aceituna y especias.",
+          "price": 7900,
+          "currency": "ARS"
+        },
+        {
+          "name": "Pizza napolitana individual",
+          "description": "Pizza individual con salsa pomodoro pronto, muzzarella, tomate, aceituna y especias.",
+          "price": 10200,
+          "currency": "ARS"
+        },
+        {
+          "name": "Pizza jamón y morrón individual",
+          "description": "Pizza individual con salsa pomodoro pronto, muzzarella, jamón cocido natural, morrón, aceitunas y especias.",
+          "price": 10500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Pizza calabresa individual",
+          "description": "Pizza individual con salsa pomodoro pronto, muzzarella, longaniza calabresa, aceitunas y especias.",
+          "price": 10500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Pizza fugazzeta individual",
+          "description": "Pizza individual con queso muzzarella, cebollas frescas, aceitunas y especias.",
+          "price": 9900,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Slide de fainá",
+          "description": "Harina de garbanzo",
+          "price": 1600,
+          "currency": "ARS"
+        },
+        {
+          "name": "Muzzarella clásica",
+          "description": "La reina de la casa. masa al molde crocante por fuera y tierna por dentro, cubierta con salsa de tomate natural, abundante muzzarella, orégano y aceitunas.",
+          "price": 12500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Napolitana con ajo y albahaca",
+          "description": "Base de muzzarella, rodajas de tomate fresco, un toque de provenzal (ajo y albahaca) y aceitunas. fresca y contundente.",
+          "price": 16500,
+          "currency": "ARS"
+        },
+        {
+          "name": "Especial de jamón y morrón",
+          "description": "Un clásico argentino. cubierta completa de jamón cocido, tiras de morrón rojo asado y muzzarella fundida.",
+          "price": 16800,
+          "currency": "ARS"
+        },
+        {
+          "name": "Calabresa (con longaniza real)",
+          "description": "Para los fanáticos del sabor intenso. muzzarella derretida coronada con rodajas de longaniza calabresa de primera calidad.",
+          "price": 16800,
+          "currency": "ARS"
+        },
+        {
+          "name": "Fugazzeta rellena de sabor",
+          "description": "Pura cebolla dulce caramelizada sobre una capa generosa de muzzarella gratinada y un toque de aceite de oliva.",
+          "price": 16500,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Salsas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Salsa de ajó",
+          "description": "Aderezo a base de mayonesa y cilantro.",
+          "price": 2000,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Bebidas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "Pepsi regular 1.5 l",
+          "description": "Gaseosa",
+          "price": 4800,
+          "currency": "ARS"
+        },
+        {
+          "name": "7 Up regular 1.5l",
+          "description": "Gaseosa 1.5.",
+          "price": 4800,
+          "currency": "ARS"
+        },
+        {
+          "name": "7 Up lima limón sin azúcar 354 ml",
+          "description": "Gaseosa.",
+          "price": 2200,
+          "currency": "ARS"
+        }
+      ]
+    },
+    {
+      "section": "Tequeños",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "products": [
+        {
+          "name": "6 Tequeños + salsa de ajo",
+          "description": "Seis tequeños de masa de trigo rellenos de queso blanco semiduro, acompañados de salsa de ajo.",
+          "price": 8200,
+          "currency": "ARS"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 1 - dúo de muzzas",
+      "description": "2 Pizzas grandes de muzzarella al precio más conveniente. masa casera y mucho queso.",
+      "price": 22500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 2 - docena surtida (ideal familia)",
+      "description": "Docena de empanadas surtidas, horneadas y grandes. Elige tus sabores favoritos.",
+      "price": 21500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 3 - la caja gigante (24 empanadas)",
+      "description": "Caja gigante con 24 empanadas horneadas. Elegí tus sabores favoritos.",
+      "price": 39900,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 4 - combo (pizza + empanadas)",
+      "description": "Lo mejor de los dos mundos. 1 pizza grande de muzzarella + 12 empanadas a elección. la solución para la cena de 4 o 5 personas.",
+      "price": 33500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 5 - 6 empanadas",
+      "description": "6 empanadas con sabor a elección. Perfectas para compartir.",
+      "price": 10750,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 7- pizza chica + gaseosa 354 ml",
+      "description": "Pizza chica de muzzarella con aceitunas y gaseosa de 354 ml.",
+      "price": 9200,
+      "currency": "ARS"
+    },
+    {
+      "section": "Rappi Promos",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Promo 8 - 1 muzza grande + 6 empanadas",
+      "description": "Una pizza de muzzarella grande mas 6 empanadas con sabores a elección.",
+      "price": 22900,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Clásica de carne suave",
+      "description": "Nuestra receta tradicional. jugoso relleno de carne vacuna, huevo picado, cebolla rehogada y especias suaves, en masa casera horneada y dorada.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Chiken cheese",
+      "description": "Empanada rellena de pollo, barbacoa, cheddar y bacon.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Carne picante \"la atrevida\"",
+      "description": "Para valientes. el mismo relleno jugoso de carne cortada a cuchillo pero con un toque picante que despierta el paladar.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Jamón y queso",
+      "description": "Sin escatimar. abundante jamón cocido y mezcla de quesos que se funden y estiran en cada mordisco. la favorita de todos.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pollo casero",
+      "description": "Pechuga de pollo desmenuzada, cocinada lentamente con un sofrito de vegetales y condimentos naturales. tierna y sabrosa.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Empanada cebolla y queso",
+      "description": "Empanada con queso muzzarella y cebolla.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Capresse (toque fresco)",
+      "description": "Combinación perfecta de queso muzzarella derretido, rodajas de tomate fresco y albahaca aromática.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Empanada jamón y roquefort",
+      "description": "Empanada con queso muzzarella, jamón y queso roquefort.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Empanada de verdura",
+      "description": "Empanada con espinaca y salsa blanca.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Calabaza y queso (masa integral)",
+      "description": "Relleno suave de calabaza asada y queso cremoso, envuelto en nuestra masa 100 integral. liviana y rica.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Empanada",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Empanada brócoli al champiñón integral",
+      "description": "Empanada de brócoli con champiñón en masa integral.",
+      "price": 2100,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pizza muzzarella individual",
+      "description": "Pizza individual con salsa pomodoro pronto, muzzarella, aceituna y especias.",
+      "price": 7900,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pizza napolitana individual",
+      "description": "Pizza individual con salsa pomodoro pronto, muzzarella, tomate, aceituna y especias.",
+      "price": 10200,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pizza jamón y morrón individual",
+      "description": "Pizza individual con salsa pomodoro pronto, muzzarella, jamón cocido natural, morrón, aceitunas y especias.",
+      "price": 10500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pizza calabresa individual",
+      "description": "Pizza individual con salsa pomodoro pronto, muzzarella, longaniza calabresa, aceitunas y especias.",
+      "price": 10500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizza Individual",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pizza fugazzeta individual",
+      "description": "Pizza individual con queso muzzarella, cebollas frescas, aceitunas y especias.",
+      "price": 9900,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Slide de fainá",
+      "description": "Harina de garbanzo",
+      "price": 1600,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Muzzarella clásica",
+      "description": "La reina de la casa. masa al molde crocante por fuera y tierna por dentro, cubierta con salsa de tomate natural, abundante muzzarella, orégano y aceitunas.",
+      "price": 12500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Napolitana con ajo y albahaca",
+      "description": "Base de muzzarella, rodajas de tomate fresco, un toque de provenzal (ajo y albahaca) y aceitunas. fresca y contundente.",
+      "price": 16500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Especial de jamón y morrón",
+      "description": "Un clásico argentino. cubierta completa de jamón cocido, tiras de morrón rojo asado y muzzarella fundida.",
+      "price": 16800,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Calabresa (con longaniza real)",
+      "description": "Para los fanáticos del sabor intenso. muzzarella derretida coronada con rodajas de longaniza calabresa de primera calidad.",
+      "price": 16800,
+      "currency": "ARS"
+    },
+    {
+      "section": "Pizzas Grandes",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Fugazzeta rellena de sabor",
+      "description": "Pura cebolla dulce caramelizada sobre una capa generosa de muzzarella gratinada y un toque de aceite de oliva.",
+      "price": 16500,
+      "currency": "ARS"
+    },
+    {
+      "section": "Salsas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Salsa de ajó",
+      "description": "Aderezo a base de mayonesa y cilantro.",
+      "price": 2000,
+      "currency": "ARS"
+    },
+    {
+      "section": "Bebidas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "Pepsi regular 1.5 l",
+      "description": "Gaseosa",
+      "price": 4800,
+      "currency": "ARS"
+    },
+    {
+      "section": "Bebidas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "7 Up regular 1.5l",
+      "description": "Gaseosa 1.5.",
+      "price": 4800,
+      "currency": "ARS"
+    },
+    {
+      "section": "Bebidas",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "7 Up lima limón sin azúcar 354 ml",
+      "description": "Gaseosa.",
+      "price": 2200,
+      "currency": "ARS"
+    },
+    {
+      "section": "Tequeños",
+      "availability": {
+        "starts": "11:00:00",
+        "ends": "14:15:00"
+      },
+      "name": "6 Tequeños + salsa de ajo",
+      "description": "Seis tequeños de masa de trigo rellenos de queso blanco semiduro, acompañados de salsa de ajo.",
+      "price": 8200,
+      "currency": "ARS"
+    }
+  ]
+}
