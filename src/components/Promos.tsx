@@ -126,7 +126,7 @@ const Promos = () => {
           <div
             ref={scrollRef}
             onScroll={checkScroll}
-            className="flex gap-5 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-2"
+            className="flex gap-5 overflow-x-auto scrollbar-hide pb-2"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             {promos.products.map((product, i) => (

@@ -65,10 +65,11 @@ const MenuSection = () => {
             <button
               key={s.section}
               onClick={() => setActiveTab(s.section)}
-              className={`font-display text-sm font-bold px-5 py-2.5 rounded-full transition-all ${activeTab === s.section
+              className={`font-display text-sm font-bold px-5 py-2.5 rounded-full transition-all ${
+                activeTab === s.section
                   ? "bg-charcoal text-gold shadow-lg"
                   : "bg-sand/50 text-charcoal hover:bg-sand"
-                }`}
+              }`}
             >
               {sectionIcons[s.section] || "🍽️"} {s.section}
             </button>
