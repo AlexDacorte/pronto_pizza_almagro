@@ -4,6 +4,12 @@ import logo from "@/assets/logo-new.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const scrollToSection = (section: string) => {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-charcoal shadow-lg">
@@ -16,9 +22,9 @@ const Header = () => {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#menu" className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">MENÚ</a>
-          <a href="#promos" className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">PROMOS</a>
-          <a href="#contacto" className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">CONTACTO</a>
+          <a style={{cursor: "pointer"}} onClick={() => scrollToSection("menu")} className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">MENÚ</a>
+          <a style={{cursor: "pointer"}} onClick={() => scrollToSection("promos")} className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">PROMOS</a>
+          <a style={{cursor: "pointer"}} onClick={() => scrollToSection("contacto")} className="font-display text-sm font-semibold text-warm-white hover:text-gold transition-colors">CONTACTO</a>
         </nav>
 
         <div className="flex items-center gap-3">

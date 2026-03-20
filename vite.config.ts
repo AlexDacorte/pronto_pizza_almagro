@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/pronto-empanadas/" : "/",
+  base: mode === "production" ? "/pronto_pizza_almagro/" : "/",
   server: {
     host: "::",
     port: 8080,

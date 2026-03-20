@@ -1,9 +1,15 @@
 import heroPizza from "@/assets/hero-pizza.jpg";
 import heroEmpanadas from "@/assets/hero-empanadas.jpg";
 import { Phone } from "lucide-react";
-
+const scrollToSection = (section: string) => {
+  const element = document.getElementById(section);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
 const Hero = () => {
   return (
+    
     <section id="hero" className="relative min-h-[70vh] flex items-center overflow-hidden">
       {/* Background images */}
       <div className="absolute inset-0 grid grid-cols-2">
@@ -29,7 +35,8 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#menu"
+            style={{cursor: "pointer"}}
+            onClick={() => scrollToSection("menu")}
             className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-4 font-display text-base font-bold text-charcoal transition-transform hover:scale-105"
           >
             Ver Menú
