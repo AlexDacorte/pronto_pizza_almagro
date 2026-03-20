@@ -34,7 +34,3 @@ Location
 
 CABA, Argentina
 Designed for local delivery and pickup experiences.
-
-License
-
-MIT License
