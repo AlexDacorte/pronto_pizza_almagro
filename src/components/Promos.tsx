@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import productsData from "@/data/products.json";
+import { productsData } from "@/data/products";
 import { Phone, ChevronLeft, ChevronRight } from "lucide-react";
 
 type Product = {

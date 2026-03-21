@@ -5,7 +5,7 @@ import catPizzaInd from "@/assets/cat-pizza-ind.jpg";
 import catSalsas from "@/assets/cat-salsas.jpg";
 import catTequenos from "@/assets/cat-tequenos.jpg";
 import promo24Empanadas from "@/assets/promo_24_empanadas.jpeg";
-import productsData from "@/data/products.json";
+import { productsData } from "@/data/products";
 import { Phone, X } from "lucide-react";
 import { useState } from "react";
 
@@ -18,6 +18,7 @@ type Product = {
   description: string;
   price: number;
   currency: string;
+  image: string;
 };
 
 type Section = {
@@ -36,14 +37,7 @@ const sectionIcons: Record<string, string> = {
   "Tequeños": "🧀",
 };
 
-const sectionImages: Record<string, string[]> = {
-  "Empanada": [catEmpanada, promo24Empanadas],
-  "Pizza Individual": [catPizzaInd],
-  "Pizzas Grandes": [catPizzaGrande],
-  "Salsas": [catSalsas],
-  "Bebidas": [catBebidas],
-  "Tequeños": [catTequenos],
-};
+
 
 const formatPrice = (price: number) => {
   return new Intl.NumberFormat("es-AR", { style: "currency", currency: "ARS", minimumFractionDigits: 0 }).format(price);
@@ -54,7 +48,6 @@ const MenuSection = () => {
   const [activeTab, setActiveTab] = useState(menuSections[0]?.section || "");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const categoryImage = sectionImages[activeTab] || catEmpanada;
 
   return (
     <section id="menu" className="py-16 bg-warm-white">
@@ -70,11 +63,10 @@ const MenuSection = () => {
             <button
               key={s.section}
               onClick={() => setActiveTab(s.section)}
-              className={`font-display text-sm font-bold px-5 py-2.5 rounded-full transition-all ${
-                activeTab === s.section
-                  ? "bg-charcoal text-gold shadow-lg"
-                  : "bg-sand/50 text-charcoal hover:bg-sand"
-              }`}
+              className={`font-display text-sm font-bold px-5 py-2.5 rounded-full transition-all ${activeTab === s.section
+                ? "bg-charcoal text-gold shadow-lg"
+                : "bg-sand/50 text-charcoal hover:bg-sand"
+                }`}
             >
               {sectionIcons[s.section] || "🍽️"} {s.section}
             </button>
@@ -91,9 +83,9 @@ const MenuSection = () => {
                 key={i}
                 className="group flex gap-4 bg-background rounded-lg border border-border p-4 transition-all hover:shadow-lg hover:scale-[1.02] hover:border-gold/50"
               >
-              
+
                 <img
-                  src={categoryImage.length > 1 ? categoryImage[0] : catEmpanada}
+                  src={product.image}
                   alt={product.name}
                   className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
                   loading="lazy"
@@ -139,7 +131,7 @@ const MenuSection = () => {
             {/* Image */}
             <div className="relative h-48 overflow-hidden">
               <img
-                src={categoryImage.length > 1 ? categoryImage[1] : promo24Empanadas}
+                src={selectedProduct.image}
                 alt={selectedProduct.name}
                 className="w-full h-full object-cover"
               />
