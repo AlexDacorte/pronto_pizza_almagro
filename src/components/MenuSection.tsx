@@ -1,12 +1,17 @@
-import { useState } from "react";
-import { X, Phone } from "lucide-react";
-import productsData from "@/data/products.json";
-import catEmpanada from "@/assets/cat-empanada.jpg";
-import catPizzaInd from "@/assets/cat-pizza-ind.jpg";
-import catPizzaGrande from "@/assets/cat-pizza-grande.jpg";
-import catTequenos from "@/assets/cat-tequenos.jpg";
 import catBebidas from "@/assets/cat-bebidas.jpg";
+import catEmpanada from "@/assets/cat-empanada.jpg";
+import catPizzaGrande from "@/assets/cat-pizza-grande.jpg";
+import catPizzaInd from "@/assets/cat-pizza-ind.jpg";
 import catSalsas from "@/assets/cat-salsas.jpg";
+import catTequenos from "@/assets/cat-tequenos.jpg";
+import promo24Empanadas from "@/assets/promo_24_empanadas.jpeg";
+import productsData from "@/data/products.json";
+import { Phone, X } from "lucide-react";
+import { useState } from "react";
+
+
+
+
 
 type Product = {
   name: string;
@@ -31,13 +36,13 @@ const sectionIcons: Record<string, string> = {
   "Tequeños": "🧀",
 };
 
-const sectionImages: Record<string, string> = {
-  "Empanada": catEmpanada,
-  "Pizza Individual": catPizzaInd,
-  "Pizzas Grandes": catPizzaGrande,
-  "Salsas": catSalsas,
-  "Bebidas": catBebidas,
-  "Tequeños": catTequenos,
+const sectionImages: Record<string, string[]> = {
+  "Empanada": [catEmpanada, promo24Empanadas],
+  "Pizza Individual": [catPizzaInd],
+  "Pizzas Grandes": [catPizzaGrande],
+  "Salsas": [catSalsas],
+  "Bebidas": [catBebidas],
+  "Tequeños": [catTequenos],
 };
 
 const formatPrice = (price: number) => {
@@ -86,8 +91,9 @@ const MenuSection = () => {
                 key={i}
                 className="group flex gap-4 bg-background rounded-lg border border-border p-4 transition-all hover:shadow-lg hover:scale-[1.02] hover:border-gold/50"
               >
+              
                 <img
-                  src={categoryImage}
+                  src={categoryImage.length > 1 ? categoryImage[0] : catEmpanada}
                   alt={product.name}
                   className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
                   loading="lazy"
@@ -133,7 +139,7 @@ const MenuSection = () => {
             {/* Image */}
             <div className="relative h-48 overflow-hidden">
               <img
-                src={categoryImage}
+                src={categoryImage.length > 1 ? categoryImage[1] : promo24Empanadas}
                 alt={selectedProduct.name}
                 className="w-full h-full object-cover"
               />
