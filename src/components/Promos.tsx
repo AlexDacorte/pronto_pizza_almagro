@@ -143,9 +143,6 @@ const Promos = () => {
                 <p className="font-body text-sm text-sand/80 leading-relaxed flex-1 mb-4">
                   {product.description}
                 </p>
-                <span className="font-display text-2xl font-black text-gold block mb-4">
-                  {formatPrice(product.price)}
-                </span>
                 <a
                   href={`https://wa.me/541164377551?text=Hola!%20Quiero%20pedir:%20${encodeURIComponent(product.name)}`}
                   target="_blank"

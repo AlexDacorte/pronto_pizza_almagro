@@ -15,7 +15,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-charcoal shadow-lg">
       <div className="container flex items-center justify-between py-3">
         {/* Logo */}
-        <a href="#hero" className="flex items-center gap-3">
+        <a className="flex items-center gap-3">
           <img src={logo} alt="Pronto Empanadas y Pizzas" className="h-12 w-12 rounded-full object-cover" />
           <span className="font-display text-lg font-bold text-gold hidden sm:block">PRONTO</span>
         </a>

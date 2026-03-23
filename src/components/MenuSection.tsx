@@ -97,10 +97,8 @@ const MenuSection = () => {
                   <p className="font-body text-xs text-support-gray leading-snug mb-2 line-clamp-2">
                     {product.description}
                   </p>
-                  <div className="flex items-center justify-between">
-                    <span className="font-display text-base font-black text-sauce-red">
-                      {formatPrice(product.price)}
-                    </span>
+                  <div className="flex items-center justify-end">
+                    
                     <button
                       onClick={() => setSelectedProduct(product)}
                       className="font-display text-xs font-bold text-warm-white bg-charcoal px-3 py-1.5 rounded-full hover:bg-gold hover:text-charcoal transition-colors"
@@ -151,10 +149,7 @@ const MenuSection = () => {
               </h3>
               <p className="font-body text-sm text-support-gray leading-relaxed mb-4">
                 {selectedProduct.description}
-              </p>
-              <span className="font-display text-3xl font-black text-sauce-red block mb-6">
-                {formatPrice(selectedProduct.price)}
-              </span>
+              </p> 
 
               <a
                 href={`https://wa.me/541164377551?text=Hola!%20Quiero%20pedir:%20${encodeURIComponent(selectedProduct.name)}`}
